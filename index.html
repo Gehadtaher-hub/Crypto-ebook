@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Introduction to Security &amp; Cryptography</title>
+<style>
+:root{--navy:#071a2e;--blue:#0c4a6e;--cyan:#22d3ee;--paper:#fff;--muted:#cbd5e1}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at top,#123555 0,#071827 55%,#030b13 100%);color:#fff;font:16px system-ui,-apple-system,Segoe UI,sans-serif;min-height:100vh;overflow-x:hidden}
+header{display:flex;align-items:center;gap:14px;padding:12px 18px;background:rgba(3,11,19,.92);border-bottom:1px solid #24425d;position:sticky;top:0;z-index:10;box-shadow:0 5px 24px #0008}.title{font-weight:750;flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.controls{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.btn{border:1px solid #3f617d;background:#102b42;color:#fff;border-radius:9px;padding:8px 11px;cursor:pointer;text-decoration:none;font-weight:650}.btn:hover{background:#174364}.btn.primary{background:#0e7490;border-color:#22d3ee}.btn:disabled{opacity:.45;cursor:not-allowed}input{width:66px;padding:8px;border-radius:8px;border:1px solid #52718a;background:#081827;color:#fff;text-align:center}.stage{min-height:calc(100vh - 67px);display:flex;align-items:center;justify-content:center;padding:24px}.book{position:relative;perspective:1800px;filter:drop-shadow(0 25px 30px #000b)}canvas{display:block;background:#fff;max-width:calc(100vw - 36px);max-height:calc(100vh - 125px);width:auto;height:auto;border-radius:4px;transform-origin:left center;transition:transform .34s ease,opacity .2s ease}.turn-next{transform:rotateY(-14deg) translateX(-10px);opacity:.3}.turn-prev{transform:rotateY(14deg) translateX(10px);opacity:.3}.status{position:fixed;left:50%;bottom:12px;transform:translateX(-50%);background:#020617dd;border:1px solid #334155;border-radius:20px;padding:7px 13px;color:var(--muted);font-size:13px;z-index:20}.error{max-width:700px;margin:auto;background:#3f1212;border:1px solid #ef4444;padding:20px;border-radius:12px;line-height:1.55}.spinner{width:44px;height:44px;border:4px solid #31506a;border-top-color:var(--cyan);border-radius:50%;animation:spin 1s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:760px){header{align-items:flex-start}.title{display:none}.controls{justify-content:center}.btn{padding:8px 9px;font-size:13px}.stage{padding:12px}}
+</style>
+</head><body>
+<header><div class="title">Introduction to Security &amp; Cryptography</div><div class="controls">
+<button id="prev" class="btn">&#8592; Previous</button><label>Page <input id="pageNum" value="1" inputmode="numeric"> / <span id="pageCount">...</span></label><button id="next" class="btn">Next &#8594;</button>
+<button id="zoomOut" class="btn" title="Zoom out">-</button><button id="zoomIn" class="btn" title="Zoom in">+</button><button id="fullscreen" class="btn">Fullscreen</button><a class="btn primary" href="studio.html">Interactive Activities</a>
+</div></header>
+<main class="stage"><div id="book" class="book"><div class="spinner" id="spinner"></div><canvas id="pageCanvas" hidden></canvas></div></main><div class="status" id="status">Loading eBook...</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs" type="module"></script>
+<script type="module">
+import * as pdfjsLib from 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.min.mjs';
+pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.10.38/pdf.worker.min.mjs';
+const PDF_URL='./crypto_ebook.pdf';
+const canvas=document.getElementById('pageCanvas'),ctx=canvas.getContext('2d'),status=document.getElementById('status'),spinner=document.getElementById('spinner');
+let pdf=null,page=1,scale=1.25,rendering=false,pending=null;
+async function render(n,dir='next'){
+ if(!pdf||rendering){pending=n;return} rendering=true; n=Math.max(1,Math.min(pdf.numPages,n));
+ canvas.className=dir==='prev'?'turn-prev':'turn-next';
+ await new Promise(r=>setTimeout(r,160));
+ try{const p=await pdf.getPage(n);const viewport=p.getViewport({scale});canvas.width=viewport.width;canvas.height=viewport.height;canvas.hidden=false;spinner.hidden=true;await p.render({canvasContext:ctx,viewport}).promise;page=n;document.getElementById('pageNum').value=page;status.textContent=`Page ${page} of ${pdf.numPages}`;canvas.className='';update();}
+ catch(e){showError(e)} finally{rendering=false;if(pending!==null){const q=pending;pending=null;render(q,q<page?'prev':'next')}}
+}
+function update(){document.getElementById('prev').disabled=page<=1;document.getElementById('next').disabled=page>=pdf.numPages}
+function showError(e){spinner.hidden=true;canvas.hidden=true;document.getElementById('book').innerHTML=`<div class="error"><strong>The eBook could not be loaded.</strong><br>Confirm that <code>crypto_ebook.pdf</code> is uploaded in the same folder as <code>index.html</code>, then refresh the page.<br><small>${String(e.message||e)}</small></div>`;status.textContent='Unable to load eBook'}
+try{pdf=await pdfjsLib.getDocument(PDF_URL).promise;document.getElementById('pageCount').textContent=pdf.numPages;render(1)}catch(e){showError(e)}
+document.getElementById('prev').onclick=()=>render(page-1,'prev');document.getElementById('next').onclick=()=>render(page+1,'next');
+document.getElementById('pageNum').onchange=e=>render(Number(e.target.value)||1,Number(e.target.value)<page?'prev':'next');
+document.getElementById('zoomIn').onclick=()=>{scale=Math.min(2.5,scale+.15);render(page)};document.getElementById('zoomOut').onclick=()=>{scale=Math.max(.6,scale-.15);render(page)};
+document.getElementById('fullscreen').onclick=()=>document.fullscreenElement?document.exitFullscreen():document.documentElement.requestFullscreen();
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')render(page+1);if(e.key==='ArrowLeft')render(page-1,'prev')});
+</script></body></html>
