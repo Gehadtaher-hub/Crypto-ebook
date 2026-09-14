@@ -1,13 +1,9 @@
-CRYPTOGRAPHY INTERACTIVE EBOOK PACKAGE
+Security & Cryptography Interactive Ebook — Midnight Blue Edition
 
-Files:
-- index.html: opens the interactive ebook first
-- studio.html: interactive activities
-- crypto_ebook.pdf: the ebook
+Changes:
+- Medium-dark midnight blue and violet theme
+- High-contrast text and controls
+- Removed the header logo/icon
+- Renamed Cyber Learning Studio to Learning Activities
 
-GitHub Pages:
-1. Upload all three files to the repository root.
-2. In Settings > Pages, select Deploy from a branch, main, /(root), then Save.
-3. Open the GitHub Pages link.
-
-The viewer uses PDF.js from a CDN, so an internet connection is required.
+Upload all files to the same GitHub Pages folder. Filenames are case-sensitive. Clear the browser cache after replacing older files.

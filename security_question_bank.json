@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "SC001",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines CIA triad?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "confidentiality, integrity, and availability",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "CIA triad means confidentiality, integrity, and availability.",
+    "chapter": 1
+  },
+  {
+    "id": "SC002",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing CIA triad. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "confidentiality, integrity, and availability"
+    ],
+    "answer": 3,
+    "explanation": "CIA triad means confidentiality, integrity, and availability.",
+    "chapter": 1
+  },
+  {
+    "id": "SC003",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies CIA triad?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use CIA triad according to its defined role: confidentiality, integrity, and availability",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "CIA triad means confidentiality, integrity, and availability.",
+    "chapter": 1
+  },
+  {
+    "id": "SC004",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines confidentiality?",
+    "options": [
+      "removing all audit records",
+      "restricting information to authorized parties",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "confidentiality means restricting information to authorized parties.",
+    "chapter": 1
+  },
+  {
+    "id": "SC005",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing confidentiality. Which description is accurate?",
+    "options": [
+      "restricting information to authorized parties",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "confidentiality means restricting information to authorized parties.",
+    "chapter": 1
+  },
+  {
+    "id": "SC006",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies confidentiality?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use confidentiality according to its defined role: restricting information to authorized parties"
+    ],
+    "answer": 3,
+    "explanation": "confidentiality means restricting information to authorized parties.",
+    "chapter": 1
+  },
+  {
+    "id": "SC007",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines integrity?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "detecting unauthorized change",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "integrity means detecting unauthorized change.",
+    "chapter": 1
+  },
+  {
+    "id": "SC008",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing integrity. Which description is accurate?",
+    "options": [
+      "detecting unauthorized change",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "integrity means detecting unauthorized change.",
+    "chapter": 1
+  },
+  {
+    "id": "SC009",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies integrity?",
+    "options": [
+      "Use integrity according to its defined role: detecting unauthorized change",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "integrity means detecting unauthorized change.",
+    "chapter": 1
+  },
+  {
+    "id": "SC010",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines availability?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "ensuring authorized access when needed"
+    ],
+    "answer": 3,
+    "explanation": "availability means ensuring authorized access when needed.",
+    "chapter": 1
+  },
+  {
+    "id": "SC011",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing availability. Which description is accurate?",
+    "options": [
+      "ensuring authorized access when needed",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "availability means ensuring authorized access when needed.",
+    "chapter": 1
+  },
+  {
+    "id": "SC012",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies availability?",
+    "options": [
+      "Use availability according to its defined role: ensuring authorized access when needed",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "availability means ensuring authorized access when needed.",
+    "chapter": 1
+  },
+  {
+    "id": "SC013",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines authentication?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "verifying a claimed identity",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "authentication means verifying a claimed identity.",
+    "chapter": 1
+  },
+  {
+    "id": "SC014",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing authentication. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "verifying a claimed identity"
+    ],
+    "answer": 3,
+    "explanation": "authentication means verifying a claimed identity.",
+    "chapter": 1
+  },
+  {
+    "id": "SC015",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies authentication?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use authentication according to its defined role: verifying a claimed identity",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "authentication means verifying a claimed identity.",
+    "chapter": 1
+  },
+  {
+    "id": "SC016",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines authorization?",
+    "options": [
+      "deciding permitted actions",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "authorization means deciding permitted actions.",
+    "chapter": 1
+  },
+  {
+    "id": "SC017",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing authorization. Which description is accurate?",
+    "options": [
+      "deciding permitted actions",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "authorization means deciding permitted actions.",
+    "chapter": 1
+  },
+  {
+    "id": "SC018",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies authorization?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use authorization according to its defined role: deciding permitted actions",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "authorization means deciding permitted actions.",
+    "chapter": 1
+  },
+  {
+    "id": "SC019",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines accountability?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "making actions traceable"
+    ],
+    "answer": 3,
+    "explanation": "accountability means making actions traceable.",
+    "chapter": 1
+  },
+  {
+    "id": "SC020",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing accountability. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "making actions traceable",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "accountability means making actions traceable.",
+    "chapter": 1
+  },
+  {
+    "id": "SC021",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies accountability?",
+    "options": [
+      "Use accountability according to its defined role: making actions traceable",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "accountability means making actions traceable.",
+    "chapter": 1
+  },
+  {
+    "id": "SC022",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines threat?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "a potential cause of harm",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "threat means a potential cause of harm.",
+    "chapter": 1
+  },
+  {
+    "id": "SC023",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing threat. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "a potential cause of harm",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "threat means a potential cause of harm.",
+    "chapter": 1
+  },
+  {
+    "id": "SC024",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies threat?",
+    "options": [
+      "hiding the algorithm from every user",
+      "Use threat according to its defined role: a potential cause of harm",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "threat means a potential cause of harm.",
+    "chapter": 1
+  },
+  {
+    "id": "SC025",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines vulnerability?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "a weakness that a threat may exploit",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "vulnerability means a weakness that a threat may exploit.",
+    "chapter": 1
+  },
+  {
+    "id": "SC026",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing vulnerability. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "a weakness that a threat may exploit",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "vulnerability means a weakness that a threat may exploit.",
+    "chapter": 1
+  },
+  {
+    "id": "SC027",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies vulnerability?",
+    "options": [
+      "Use vulnerability according to its defined role: a weakness that a threat may exploit",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "vulnerability means a weakness that a threat may exploit.",
+    "chapter": 1
+  },
+  {
+    "id": "SC028",
+    "topic": "Information Security",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines replay protection?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "using nonces, timestamps, or sequence numbers"
+    ],
+    "answer": 3,
+    "explanation": "replay protection means using nonces, timestamps, or sequence numbers.",
+    "chapter": 1
+  },
+  {
+    "id": "SC029",
+    "topic": "Information Security",
+    "difficulty": "Applied",
+    "question": "A student is reviewing replay protection. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "using nonces, timestamps, or sequence numbers"
+    ],
+    "answer": 3,
+    "explanation": "replay protection means using nonces, timestamps, or sequence numbers.",
+    "chapter": 1
+  },
+  {
+    "id": "SC030",
+    "topic": "Information Security",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies replay protection?",
+    "options": [
+      "hiding the algorithm from every user",
+      "Use replay protection according to its defined role: using nonces, timestamps, or sequence numbers",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "replay protection means using nonces, timestamps, or sequence numbers.",
+    "chapter": 1
+  },
+  {
+    "id": "SC031",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Kerckhoffs’s principle?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "security should depend primarily on key secrecy, not algorithm secrecy"
+    ],
+    "answer": 3,
+    "explanation": "Kerckhoffs’s principle means security should depend primarily on key secrecy, not algorithm secrecy.",
+    "chapter": 2
+  },
+  {
+    "id": "SC032",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Kerckhoffs’s principle. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "security should depend primarily on key secrecy, not algorithm secrecy"
+    ],
+    "answer": 3,
+    "explanation": "Kerckhoffs’s principle means security should depend primarily on key secrecy, not algorithm secrecy.",
+    "chapter": 2
+  },
+  {
+    "id": "SC033",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Kerckhoffs’s principle?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use Kerckhoffs’s principle according to its defined role: security should depend primarily on key secrecy, not algorithm secrecy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "Kerckhoffs’s principle means security should depend primarily on key secrecy, not algorithm secrecy.",
+    "chapter": 2
+  },
+  {
+    "id": "SC034",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines plaintext?",
+    "options": [
+      "hiding the algorithm from every user",
+      "the original readable information",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "plaintext means the original readable information.",
+    "chapter": 2
+  },
+  {
+    "id": "SC035",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing plaintext. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "the original readable information",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "plaintext means the original readable information.",
+    "chapter": 2
+  },
+  {
+    "id": "SC036",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies plaintext?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use plaintext according to its defined role: the original readable information",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "plaintext means the original readable information.",
+    "chapter": 2
+  },
+  {
+    "id": "SC037",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ciphertext?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "the protected output of encryption"
+    ],
+    "answer": 3,
+    "explanation": "ciphertext means the protected output of encryption.",
+    "chapter": 2
+  },
+  {
+    "id": "SC038",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ciphertext. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "the protected output of encryption",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "ciphertext means the protected output of encryption.",
+    "chapter": 2
+  },
+  {
+    "id": "SC039",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ciphertext?",
+    "options": [
+      "Use ciphertext according to its defined role: the protected output of encryption",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "ciphertext means the protected output of encryption.",
+    "chapter": 2
+  },
+  {
+    "id": "SC040",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines key space?",
+    "options": [
+      "hiding the algorithm from every user",
+      "the set of possible valid keys",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "key space means the set of possible valid keys.",
+    "chapter": 2
+  },
+  {
+    "id": "SC041",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing key space. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "the set of possible valid keys",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "key space means the set of possible valid keys.",
+    "chapter": 2
+  },
+  {
+    "id": "SC042",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies key space?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use key space according to its defined role: the set of possible valid keys"
+    ],
+    "answer": 3,
+    "explanation": "key space means the set of possible valid keys.",
+    "chapter": 2
+  },
+  {
+    "id": "SC043",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines cryptanalysis?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "analysis intended to defeat cryptographic protection"
+    ],
+    "answer": 3,
+    "explanation": "cryptanalysis means analysis intended to defeat cryptographic protection.",
+    "chapter": 2
+  },
+  {
+    "id": "SC044",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing cryptanalysis. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "analysis intended to defeat cryptographic protection",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "cryptanalysis means analysis intended to defeat cryptographic protection.",
+    "chapter": 2
+  },
+  {
+    "id": "SC045",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies cryptanalysis?",
+    "options": [
+      "Use cryptanalysis according to its defined role: analysis intended to defeat cryptographic protection",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "cryptanalysis means analysis intended to defeat cryptographic protection.",
+    "chapter": 2
+  },
+  {
+    "id": "SC046",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines hybrid encryption?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "public-key techniques for session keys plus symmetric protection for data"
+    ],
+    "answer": 3,
+    "explanation": "hybrid encryption means public-key techniques for session keys plus symmetric protection for data.",
+    "chapter": 2
+  },
+  {
+    "id": "SC047",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing hybrid encryption. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "public-key techniques for session keys plus symmetric protection for data",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "hybrid encryption means public-key techniques for session keys plus symmetric protection for data.",
+    "chapter": 2
+  },
+  {
+    "id": "SC048",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies hybrid encryption?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use hybrid encryption according to its defined role: public-key techniques for session keys plus symmetric protection for data",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "hybrid encryption means public-key techniques for session keys plus symmetric protection for data.",
+    "chapter": 2
+  },
+  {
+    "id": "SC049",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines key management?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "generation, distribution, storage, rotation, revocation, and destruction"
+    ],
+    "answer": 3,
+    "explanation": "key management means generation, distribution, storage, rotation, revocation, and destruction.",
+    "chapter": 2
+  },
+  {
+    "id": "SC050",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing key management. Which description is accurate?",
+    "options": [
+      "generation, distribution, storage, rotation, revocation, and destruction",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "key management means generation, distribution, storage, rotation, revocation, and destruction.",
+    "chapter": 2
+  },
+  {
+    "id": "SC051",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies key management?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use key management according to its defined role: generation, distribution, storage, rotation, revocation, and destruction",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "key management means generation, distribution, storage, rotation, revocation, and destruction.",
+    "chapter": 2
+  },
+  {
+    "id": "SC052",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines brute force?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "testing possible keys until a meaningful result is found",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "brute force means testing possible keys until a meaningful result is found.",
+    "chapter": 2
+  },
+  {
+    "id": "SC053",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing brute force. Which description is accurate?",
+    "options": [
+      "testing possible keys until a meaningful result is found",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "brute force means testing possible keys until a meaningful result is found.",
+    "chapter": 2
+  },
+  {
+    "id": "SC054",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies brute force?",
+    "options": [
+      "Use brute force according to its defined role: testing possible keys until a meaningful result is found",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "brute force means testing possible keys until a meaningful result is found.",
+    "chapter": 2
+  },
+  {
+    "id": "SC055",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines chosen-plaintext attack?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "selecting plaintexts and obtaining corresponding ciphertexts"
+    ],
+    "answer": 3,
+    "explanation": "chosen-plaintext attack means selecting plaintexts and obtaining corresponding ciphertexts.",
+    "chapter": 2
+  },
+  {
+    "id": "SC056",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing chosen-plaintext attack. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "selecting plaintexts and obtaining corresponding ciphertexts"
+    ],
+    "answer": 3,
+    "explanation": "chosen-plaintext attack means selecting plaintexts and obtaining corresponding ciphertexts.",
+    "chapter": 2
+  },
+  {
+    "id": "SC057",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies chosen-plaintext attack?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use chosen-plaintext attack according to its defined role: selecting plaintexts and obtaining corresponding ciphertexts"
+    ],
+    "answer": 3,
+    "explanation": "chosen-plaintext attack means selecting plaintexts and obtaining corresponding ciphertexts.",
+    "chapter": 2
+  },
+  {
+    "id": "SC058",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines side channel?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "information leaked by timing, power, cache behavior, or errors",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "side channel means information leaked by timing, power, cache behavior, or errors.",
+    "chapter": 2
+  },
+  {
+    "id": "SC059",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing side channel. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "information leaked by timing, power, cache behavior, or errors",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "side channel means information leaked by timing, power, cache behavior, or errors.",
+    "chapter": 2
+  },
+  {
+    "id": "SC060",
+    "topic": "Cryptography Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies side channel?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use side channel according to its defined role: information leaked by timing, power, cache behavior, or errors",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "side channel means information leaked by timing, power, cache behavior, or errors.",
+    "chapter": 2
+  },
+  {
+    "id": "SC061",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Caesar cipher?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "a fixed alphabet shift modulo 26",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "Caesar cipher means a fixed alphabet shift modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC062",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Caesar cipher. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "a fixed alphabet shift modulo 26",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "Caesar cipher means a fixed alphabet shift modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC063",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Caesar cipher?",
+    "options": [
+      "Use Caesar cipher according to its defined role: a fixed alphabet shift modulo 26",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "Caesar cipher means a fixed alphabet shift modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC064",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines monoalphabetic substitution?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "one fixed substitution alphabet",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "monoalphabetic substitution means one fixed substitution alphabet.",
+    "chapter": 3
+  },
+  {
+    "id": "SC065",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing monoalphabetic substitution. Which description is accurate?",
+    "options": [
+      "one fixed substitution alphabet",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "monoalphabetic substitution means one fixed substitution alphabet.",
+    "chapter": 3
+  },
+  {
+    "id": "SC066",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies monoalphabetic substitution?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use monoalphabetic substitution according to its defined role: one fixed substitution alphabet"
+    ],
+    "answer": 3,
+    "explanation": "monoalphabetic substitution means one fixed substitution alphabet.",
+    "chapter": 3
+  },
+  {
+    "id": "SC067",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Playfair cipher?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "digraph substitution using a 5 by 5 matrix"
+    ],
+    "answer": 3,
+    "explanation": "Playfair cipher means digraph substitution using a 5 by 5 matrix.",
+    "chapter": 3
+  },
+  {
+    "id": "SC068",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Playfair cipher. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "digraph substitution using a 5 by 5 matrix",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "Playfair cipher means digraph substitution using a 5 by 5 matrix.",
+    "chapter": 3
+  },
+  {
+    "id": "SC069",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Playfair cipher?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use Playfair cipher according to its defined role: digraph substitution using a 5 by 5 matrix"
+    ],
+    "answer": 3,
+    "explanation": "Playfair cipher means digraph substitution using a 5 by 5 matrix.",
+    "chapter": 3
+  },
+  {
+    "id": "SC070",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Hill cipher?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "matrix multiplication modulo 26"
+    ],
+    "answer": 3,
+    "explanation": "Hill cipher means matrix multiplication modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC071",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Hill cipher. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "matrix multiplication modulo 26",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "Hill cipher means matrix multiplication modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC072",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Hill cipher?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use Hill cipher according to its defined role: matrix multiplication modulo 26"
+    ],
+    "answer": 3,
+    "explanation": "Hill cipher means matrix multiplication modulo 26.",
+    "chapter": 3
+  },
+  {
+    "id": "SC073",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Vigenère cipher?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "polyalphabetic shifts controlled by a repeating keyword",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "Vigenère cipher means polyalphabetic shifts controlled by a repeating keyword.",
+    "chapter": 3
+  },
+  {
+    "id": "SC074",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Vigenère cipher. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "polyalphabetic shifts controlled by a repeating keyword"
+    ],
+    "answer": 3,
+    "explanation": "Vigenère cipher means polyalphabetic shifts controlled by a repeating keyword.",
+    "chapter": 3
+  },
+  {
+    "id": "SC075",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Vigenère cipher?",
+    "options": [
+      "Use Vigenère cipher according to its defined role: polyalphabetic shifts controlled by a repeating keyword",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "Vigenère cipher means polyalphabetic shifts controlled by a repeating keyword.",
+    "chapter": 3
+  },
+  {
+    "id": "SC076",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Vernam cipher?",
+    "options": [
+      "combining plaintext and keystream, commonly with XOR",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "Vernam cipher means combining plaintext and keystream, commonly with XOR.",
+    "chapter": 3
+  },
+  {
+    "id": "SC077",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Vernam cipher. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "combining plaintext and keystream, commonly with XOR",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "Vernam cipher means combining plaintext and keystream, commonly with XOR.",
+    "chapter": 3
+  },
+  {
+    "id": "SC078",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Vernam cipher?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use Vernam cipher according to its defined role: combining plaintext and keystream, commonly with XOR",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "Vernam cipher means combining plaintext and keystream, commonly with XOR.",
+    "chapter": 3
+  },
+  {
+    "id": "SC079",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines one-time pad?",
+    "options": [
+      "a truly random, secret, message-length key used once",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "one-time pad means a truly random, secret, message-length key used once.",
+    "chapter": 3
+  },
+  {
+    "id": "SC080",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing one-time pad. Which description is accurate?",
+    "options": [
+      "a truly random, secret, message-length key used once",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "one-time pad means a truly random, secret, message-length key used once.",
+    "chapter": 3
+  },
+  {
+    "id": "SC081",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies one-time pad?",
+    "options": [
+      "Use one-time pad according to its defined role: a truly random, secret, message-length key used once",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "one-time pad means a truly random, secret, message-length key used once.",
+    "chapter": 3
+  },
+  {
+    "id": "SC082",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Rail Fence?",
+    "options": [
+      "zigzag transposition across rails",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "Rail Fence means zigzag transposition across rails.",
+    "chapter": 3
+  },
+  {
+    "id": "SC083",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Rail Fence. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "zigzag transposition across rails",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "Rail Fence means zigzag transposition across rails.",
+    "chapter": 3
+  },
+  {
+    "id": "SC084",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Rail Fence?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use Rail Fence according to its defined role: zigzag transposition across rails",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "Rail Fence means zigzag transposition across rails.",
+    "chapter": 3
+  },
+  {
+    "id": "SC085",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines columnar transposition?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "rearranging symbols by reading columns in a chosen order",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "columnar transposition means rearranging symbols by reading columns in a chosen order.",
+    "chapter": 3
+  },
+  {
+    "id": "SC086",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing columnar transposition. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "rearranging symbols by reading columns in a chosen order"
+    ],
+    "answer": 3,
+    "explanation": "columnar transposition means rearranging symbols by reading columns in a chosen order.",
+    "chapter": 3
+  },
+  {
+    "id": "SC087",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies columnar transposition?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use columnar transposition according to its defined role: rearranging symbols by reading columns in a chosen order",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "columnar transposition means rearranging symbols by reading columns in a chosen order.",
+    "chapter": 3
+  },
+  {
+    "id": "SC088",
+    "topic": "Classical Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines frequency analysis?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "using statistical language patterns to infer mappings",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "frequency analysis means using statistical language patterns to infer mappings.",
+    "chapter": 3
+  },
+  {
+    "id": "SC089",
+    "topic": "Classical Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing frequency analysis. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "using statistical language patterns to infer mappings"
+    ],
+    "answer": 3,
+    "explanation": "frequency analysis means using statistical language patterns to infer mappings.",
+    "chapter": 3
+  },
+  {
+    "id": "SC090",
+    "topic": "Classical Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies frequency analysis?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use frequency analysis according to its defined role: using statistical language patterns to infer mappings",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "frequency analysis means using statistical language patterns to infer mappings.",
+    "chapter": 3
+  },
+  {
+    "id": "SC091",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines modular arithmetic?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "arithmetic on remainders within a modulus"
+    ],
+    "answer": 3,
+    "explanation": "modular arithmetic means arithmetic on remainders within a modulus.",
+    "chapter": 4
+  },
+  {
+    "id": "SC092",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing modular arithmetic. Which description is accurate?",
+    "options": [
+      "arithmetic on remainders within a modulus",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "modular arithmetic means arithmetic on remainders within a modulus.",
+    "chapter": 4
+  },
+  {
+    "id": "SC093",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies modular arithmetic?",
+    "options": [
+      "Use modular arithmetic according to its defined role: arithmetic on remainders within a modulus",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "modular arithmetic means arithmetic on remainders within a modulus.",
+    "chapter": 4
+  },
+  {
+    "id": "SC094",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines greatest common divisor?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "the largest positive divisor shared by two integers",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "greatest common divisor means the largest positive divisor shared by two integers.",
+    "chapter": 4
+  },
+  {
+    "id": "SC095",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing greatest common divisor. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "the largest positive divisor shared by two integers",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "greatest common divisor means the largest positive divisor shared by two integers.",
+    "chapter": 4
+  },
+  {
+    "id": "SC096",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies greatest common divisor?",
+    "options": [
+      "Use greatest common divisor according to its defined role: the largest positive divisor shared by two integers",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "greatest common divisor means the largest positive divisor shared by two integers.",
+    "chapter": 4
+  },
+  {
+    "id": "SC097",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines coprime integers?",
+    "options": [
+      "integers whose greatest common divisor is one",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "coprime integers means integers whose greatest common divisor is one.",
+    "chapter": 4
+  },
+  {
+    "id": "SC098",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing coprime integers. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "integers whose greatest common divisor is one",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "coprime integers means integers whose greatest common divisor is one.",
+    "chapter": 4
+  },
+  {
+    "id": "SC099",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies coprime integers?",
+    "options": [
+      "removing all audit records",
+      "Use coprime integers according to its defined role: integers whose greatest common divisor is one",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "coprime integers means integers whose greatest common divisor is one.",
+    "chapter": 4
+  },
+  {
+    "id": "SC100",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines modular inverse?",
+    "options": [
+      "a value that multiplies to one modulo n",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "modular inverse means a value that multiplies to one modulo n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC101",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing modular inverse. Which description is accurate?",
+    "options": [
+      "a value that multiplies to one modulo n",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "modular inverse means a value that multiplies to one modulo n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC102",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies modular inverse?",
+    "options": [
+      "Use modular inverse according to its defined role: a value that multiplies to one modulo n",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "modular inverse means a value that multiplies to one modulo n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC103",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Euler phi function?",
+    "options": [
+      "hiding the algorithm from every user",
+      "counting integers relatively prime to n",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "Euler phi function means counting integers relatively prime to n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC104",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Euler phi function. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "counting integers relatively prime to n"
+    ],
+    "answer": 3,
+    "explanation": "Euler phi function means counting integers relatively prime to n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC105",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Euler phi function?",
+    "options": [
+      "hiding the algorithm from every user",
+      "Use Euler phi function according to its defined role: counting integers relatively prime to n",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "Euler phi function means counting integers relatively prime to n.",
+    "chapter": 4
+  },
+  {
+    "id": "SC106",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines repeated squaring?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "efficient modular exponentiation",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "repeated squaring means efficient modular exponentiation.",
+    "chapter": 4
+  },
+  {
+    "id": "SC107",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing repeated squaring. Which description is accurate?",
+    "options": [
+      "efficient modular exponentiation",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "repeated squaring means efficient modular exponentiation.",
+    "chapter": 4
+  },
+  {
+    "id": "SC108",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies repeated squaring?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use repeated squaring according to its defined role: efficient modular exponentiation",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "repeated squaring means efficient modular exponentiation.",
+    "chapter": 4
+  },
+  {
+    "id": "SC109",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines prime number?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "an integer greater than one with exactly two positive divisors",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "prime number means an integer greater than one with exactly two positive divisors.",
+    "chapter": 4
+  },
+  {
+    "id": "SC110",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing prime number. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "an integer greater than one with exactly two positive divisors",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "prime number means an integer greater than one with exactly two positive divisors.",
+    "chapter": 4
+  },
+  {
+    "id": "SC111",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies prime number?",
+    "options": [
+      "Use prime number according to its defined role: an integer greater than one with exactly two positive divisors",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "prime number means an integer greater than one with exactly two positive divisors.",
+    "chapter": 4
+  },
+  {
+    "id": "SC112",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Euclidean algorithm?",
+    "options": [
+      "repeated remainder steps for computing a GCD",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "Euclidean algorithm means repeated remainder steps for computing a GCD.",
+    "chapter": 4
+  },
+  {
+    "id": "SC113",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Euclidean algorithm. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "repeated remainder steps for computing a GCD"
+    ],
+    "answer": 3,
+    "explanation": "Euclidean algorithm means repeated remainder steps for computing a GCD.",
+    "chapter": 4
+  },
+  {
+    "id": "SC114",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Euclidean algorithm?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use Euclidean algorithm according to its defined role: repeated remainder steps for computing a GCD",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "Euclidean algorithm means repeated remainder steps for computing a GCD.",
+    "chapter": 4
+  },
+  {
+    "id": "SC115",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Bezout identity?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "expressing a GCD as a linear combination",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "Bezout identity means expressing a GCD as a linear combination.",
+    "chapter": 4
+  },
+  {
+    "id": "SC116",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Bezout identity. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "expressing a GCD as a linear combination",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "Bezout identity means expressing a GCD as a linear combination.",
+    "chapter": 4
+  },
+  {
+    "id": "SC117",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Bezout identity?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use Bezout identity according to its defined role: expressing a GCD as a linear combination",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "Bezout identity means expressing a GCD as a linear combination.",
+    "chapter": 4
+  },
+  {
+    "id": "SC118",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines finite field?",
+    "options": [
+      "removing all audit records",
+      "a finite algebraic structure supporting field operations",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "finite field means a finite algebraic structure supporting field operations.",
+    "chapter": 4
+  },
+  {
+    "id": "SC119",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Applied",
+    "question": "A student is reviewing finite field. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "a finite algebraic structure supporting field operations",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "finite field means a finite algebraic structure supporting field operations.",
+    "chapter": 4
+  },
+  {
+    "id": "SC120",
+    "topic": "Mathematical Foundations",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies finite field?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use finite field according to its defined role: a finite algebraic structure supporting field operations",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "finite field means a finite algebraic structure supporting field operations.",
+    "chapter": 4
+  },
+  {
+    "id": "SC121",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines stream cipher?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "combining data with a pseudorandom keystream"
+    ],
+    "answer": 3,
+    "explanation": "stream cipher means combining data with a pseudorandom keystream.",
+    "chapter": 5
+  },
+  {
+    "id": "SC122",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing stream cipher. Which description is accurate?",
+    "options": [
+      "combining data with a pseudorandom keystream",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "stream cipher means combining data with a pseudorandom keystream.",
+    "chapter": 5
+  },
+  {
+    "id": "SC123",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies stream cipher?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use stream cipher according to its defined role: combining data with a pseudorandom keystream"
+    ],
+    "answer": 3,
+    "explanation": "stream cipher means combining data with a pseudorandom keystream.",
+    "chapter": 5
+  },
+  {
+    "id": "SC124",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines block cipher?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a keyed permutation on fixed-size blocks",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "block cipher means a keyed permutation on fixed-size blocks.",
+    "chapter": 5
+  },
+  {
+    "id": "SC125",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing block cipher. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "a keyed permutation on fixed-size blocks",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "block cipher means a keyed permutation on fixed-size blocks.",
+    "chapter": 5
+  },
+  {
+    "id": "SC126",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies block cipher?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use block cipher according to its defined role: a keyed permutation on fixed-size blocks"
+    ],
+    "answer": 3,
+    "explanation": "block cipher means a keyed permutation on fixed-size blocks.",
+    "chapter": 5
+  },
+  {
+    "id": "SC127",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines DES?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "a legacy 64-bit block cipher with a 56-bit effective key"
+    ],
+    "answer": 3,
+    "explanation": "DES means a legacy 64-bit block cipher with a 56-bit effective key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC128",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing DES. Which description is accurate?",
+    "options": [
+      "a legacy 64-bit block cipher with a 56-bit effective key",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "DES means a legacy 64-bit block cipher with a 56-bit effective key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC129",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies DES?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use DES according to its defined role: a legacy 64-bit block cipher with a 56-bit effective key",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "DES means a legacy 64-bit block cipher with a 56-bit effective key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC130",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines AES?",
+    "options": [
+      "a 128-bit block cipher with 128, 192, or 256-bit keys",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "AES means a 128-bit block cipher with 128, 192, or 256-bit keys.",
+    "chapter": 5
+  },
+  {
+    "id": "SC131",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing AES. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "a 128-bit block cipher with 128, 192, or 256-bit keys",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "AES means a 128-bit block cipher with 128, 192, or 256-bit keys.",
+    "chapter": 5
+  },
+  {
+    "id": "SC132",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies AES?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use AES according to its defined role: a 128-bit block cipher with 128, 192, or 256-bit keys",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "AES means a 128-bit block cipher with 128, 192, or 256-bit keys.",
+    "chapter": 5
+  },
+  {
+    "id": "SC133",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines SubBytes?",
+    "options": [
+      "the nonlinear byte substitution step in AES",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "SubBytes means the nonlinear byte substitution step in AES.",
+    "chapter": 5
+  },
+  {
+    "id": "SC134",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing SubBytes. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "the nonlinear byte substitution step in AES",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "SubBytes means the nonlinear byte substitution step in AES.",
+    "chapter": 5
+  },
+  {
+    "id": "SC135",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies SubBytes?",
+    "options": [
+      "Use SubBytes according to its defined role: the nonlinear byte substitution step in AES",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "SubBytes means the nonlinear byte substitution step in AES.",
+    "chapter": 5
+  },
+  {
+    "id": "SC136",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ShiftRows?",
+    "options": [
+      "hiding the algorithm from every user",
+      "rotating AES state rows to spread byte positions",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "ShiftRows means rotating AES state rows to spread byte positions.",
+    "chapter": 5
+  },
+  {
+    "id": "SC137",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ShiftRows. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "rotating AES state rows to spread byte positions"
+    ],
+    "answer": 3,
+    "explanation": "ShiftRows means rotating AES state rows to spread byte positions.",
+    "chapter": 5
+  },
+  {
+    "id": "SC138",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ShiftRows?",
+    "options": [
+      "Use ShiftRows according to its defined role: rotating AES state rows to spread byte positions",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "ShiftRows means rotating AES state rows to spread byte positions.",
+    "chapter": 5
+  },
+  {
+    "id": "SC139",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines MixColumns?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "mixing bytes within each AES state column"
+    ],
+    "answer": 3,
+    "explanation": "MixColumns means mixing bytes within each AES state column.",
+    "chapter": 5
+  },
+  {
+    "id": "SC140",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing MixColumns. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "mixing bytes within each AES state column"
+    ],
+    "answer": 3,
+    "explanation": "MixColumns means mixing bytes within each AES state column.",
+    "chapter": 5
+  },
+  {
+    "id": "SC141",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies MixColumns?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use MixColumns according to its defined role: mixing bytes within each AES state column"
+    ],
+    "answer": 3,
+    "explanation": "MixColumns means mixing bytes within each AES state column.",
+    "chapter": 5
+  },
+  {
+    "id": "SC142",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ECB weakness?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "identical plaintext blocks reveal repeated patterns",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "ECB weakness means identical plaintext blocks reveal repeated patterns.",
+    "chapter": 5
+  },
+  {
+    "id": "SC143",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ECB weakness. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "identical plaintext blocks reveal repeated patterns",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "ECB weakness means identical plaintext blocks reveal repeated patterns.",
+    "chapter": 5
+  },
+  {
+    "id": "SC144",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ECB weakness?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use ECB weakness according to its defined role: identical plaintext blocks reveal repeated patterns",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "ECB weakness means identical plaintext blocks reveal repeated patterns.",
+    "chapter": 5
+  },
+  {
+    "id": "SC145",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines CTR requirement?",
+    "options": [
+      "hiding the algorithm from every user",
+      "nonce-counter inputs must never repeat under one key",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "CTR requirement means nonce-counter inputs must never repeat under one key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC146",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing CTR requirement. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "nonce-counter inputs must never repeat under one key",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "CTR requirement means nonce-counter inputs must never repeat under one key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC147",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies CTR requirement?",
+    "options": [
+      "Use CTR requirement according to its defined role: nonce-counter inputs must never repeat under one key",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "CTR requirement means nonce-counter inputs must never repeat under one key.",
+    "chapter": 5
+  },
+  {
+    "id": "SC148",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines GCM?",
+    "options": [
+      "hiding the algorithm from every user",
+      "authenticated encryption producing ciphertext and a tag",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "GCM means authenticated encryption producing ciphertext and a tag.",
+    "chapter": 5
+  },
+  {
+    "id": "SC149",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing GCM. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "authenticated encryption producing ciphertext and a tag"
+    ],
+    "answer": 3,
+    "explanation": "GCM means authenticated encryption producing ciphertext and a tag.",
+    "chapter": 5
+  },
+  {
+    "id": "SC150",
+    "topic": "Symmetric Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies GCM?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use GCM according to its defined role: authenticated encryption producing ciphertext and a tag",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "GCM means authenticated encryption producing ciphertext and a tag.",
+    "chapter": 5
+  },
+  {
+    "id": "SC151",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines public key?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a distributable key whose authenticity must be established",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "public key means a distributable key whose authenticity must be established.",
+    "chapter": 6
+  },
+  {
+    "id": "SC152",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing public key. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a distributable key whose authenticity must be established",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "public key means a distributable key whose authenticity must be established.",
+    "chapter": 6
+  },
+  {
+    "id": "SC153",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies public key?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use public key according to its defined role: a distributable key whose authenticity must be established",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "public key means a distributable key whose authenticity must be established.",
+    "chapter": 6
+  },
+  {
+    "id": "SC154",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines private key?",
+    "options": [
+      "secret key material that must be protected",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "private key means secret key material that must be protected.",
+    "chapter": 6
+  },
+  {
+    "id": "SC155",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing private key. Which description is accurate?",
+    "options": [
+      "secret key material that must be protected",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "private key means secret key material that must be protected.",
+    "chapter": 6
+  },
+  {
+    "id": "SC156",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies private key?",
+    "options": [
+      "removing all audit records",
+      "Use private key according to its defined role: secret key material that must be protected",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "private key means secret key material that must be protected.",
+    "chapter": 6
+  },
+  {
+    "id": "SC157",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines RSA modulus?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "the product of two carefully generated primes",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "RSA modulus means the product of two carefully generated primes.",
+    "chapter": 6
+  },
+  {
+    "id": "SC158",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing RSA modulus. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "the product of two carefully generated primes",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "RSA modulus means the product of two carefully generated primes.",
+    "chapter": 6
+  },
+  {
+    "id": "SC159",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies RSA modulus?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use RSA modulus according to its defined role: the product of two carefully generated primes",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "RSA modulus means the product of two carefully generated primes.",
+    "chapter": 6
+  },
+  {
+    "id": "SC160",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines RSA-OAEP?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "randomized encoding for RSA encryption"
+    ],
+    "answer": 3,
+    "explanation": "RSA-OAEP means randomized encoding for RSA encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC161",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing RSA-OAEP. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "randomized encoding for RSA encryption",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "RSA-OAEP means randomized encoding for RSA encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC162",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies RSA-OAEP?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use RSA-OAEP according to its defined role: randomized encoding for RSA encryption"
+    ],
+    "answer": 3,
+    "explanation": "RSA-OAEP means randomized encoding for RSA encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC163",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Diffie–Hellman?",
+    "options": [
+      "hiding the algorithm from every user",
+      "key agreement yielding a shared secret",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "Diffie–Hellman means key agreement yielding a shared secret.",
+    "chapter": 6
+  },
+  {
+    "id": "SC164",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Diffie–Hellman. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "key agreement yielding a shared secret"
+    ],
+    "answer": 3,
+    "explanation": "Diffie–Hellman means key agreement yielding a shared secret.",
+    "chapter": 6
+  },
+  {
+    "id": "SC165",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Diffie–Hellman?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use Diffie–Hellman according to its defined role: key agreement yielding a shared secret"
+    ],
+    "answer": 3,
+    "explanation": "Diffie–Hellman means key agreement yielding a shared secret.",
+    "chapter": 6
+  },
+  {
+    "id": "SC166",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines forward secrecy?",
+    "options": [
+      "long-term key compromise should not reveal old session keys",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "forward secrecy means long-term key compromise should not reveal old session keys.",
+    "chapter": 6
+  },
+  {
+    "id": "SC167",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing forward secrecy. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "long-term key compromise should not reveal old session keys",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "forward secrecy means long-term key compromise should not reveal old session keys.",
+    "chapter": 6
+  },
+  {
+    "id": "SC168",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies forward secrecy?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use forward secrecy according to its defined role: long-term key compromise should not reveal old session keys"
+    ],
+    "answer": 3,
+    "explanation": "forward secrecy means long-term key compromise should not reveal old session keys.",
+    "chapter": 6
+  },
+  {
+    "id": "SC169",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines KDF?",
+    "options": [
+      "hiding the algorithm from every user",
+      "deriving separated application keys from shared material",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "KDF means deriving separated application keys from shared material.",
+    "chapter": 6
+  },
+  {
+    "id": "SC170",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing KDF. Which description is accurate?",
+    "options": [
+      "deriving separated application keys from shared material",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "KDF means deriving separated application keys from shared material.",
+    "chapter": 6
+  },
+  {
+    "id": "SC171",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies KDF?",
+    "options": [
+      "removing all audit records",
+      "Use KDF according to its defined role: deriving separated application keys from shared material",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "KDF means deriving separated application keys from shared material.",
+    "chapter": 6
+  },
+  {
+    "id": "SC172",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ElGamal randomness?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "a fresh unpredictable value for every encryption",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "ElGamal randomness means a fresh unpredictable value for every encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC173",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ElGamal randomness. Which description is accurate?",
+    "options": [
+      "a fresh unpredictable value for every encryption",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "ElGamal randomness means a fresh unpredictable value for every encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC174",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ElGamal randomness?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use ElGamal randomness according to its defined role: a fresh unpredictable value for every encryption"
+    ],
+    "answer": 3,
+    "explanation": "ElGamal randomness means a fresh unpredictable value for every encryption.",
+    "chapter": 6
+  },
+  {
+    "id": "SC175",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ECC?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "public-key cryptography based on elliptic-curve groups",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "ECC means public-key cryptography based on elliptic-curve groups.",
+    "chapter": 6
+  },
+  {
+    "id": "SC176",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ECC. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "public-key cryptography based on elliptic-curve groups"
+    ],
+    "answer": 3,
+    "explanation": "ECC means public-key cryptography based on elliptic-curve groups.",
+    "chapter": 6
+  },
+  {
+    "id": "SC177",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ECC?",
+    "options": [
+      "Use ECC according to its defined role: public-key cryptography based on elliptic-curve groups",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "ECC means public-key cryptography based on elliptic-curve groups.",
+    "chapter": 6
+  },
+  {
+    "id": "SC178",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ECDH?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "elliptic-curve key agreement"
+    ],
+    "answer": 3,
+    "explanation": "ECDH means elliptic-curve key agreement.",
+    "chapter": 6
+  },
+  {
+    "id": "SC179",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ECDH. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "elliptic-curve key agreement",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "ECDH means elliptic-curve key agreement.",
+    "chapter": 6
+  },
+  {
+    "id": "SC180",
+    "topic": "Public Key Cryptography",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ECDH?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use ECDH according to its defined role: elliptic-curve key agreement",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "ECDH means elliptic-curve key agreement.",
+    "chapter": 6
+  },
+  {
+    "id": "SC181",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines hash function?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "mapping arbitrary-length input to a fixed-length digest"
+    ],
+    "answer": 3,
+    "explanation": "hash function means mapping arbitrary-length input to a fixed-length digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC182",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing hash function. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "mapping arbitrary-length input to a fixed-length digest",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "hash function means mapping arbitrary-length input to a fixed-length digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC183",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies hash function?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use hash function according to its defined role: mapping arbitrary-length input to a fixed-length digest"
+    ],
+    "answer": 3,
+    "explanation": "hash function means mapping arbitrary-length input to a fixed-length digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC184",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines preimage resistance?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "difficulty of finding an input for a given digest",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "preimage resistance means difficulty of finding an input for a given digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC185",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing preimage resistance. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "difficulty of finding an input for a given digest"
+    ],
+    "answer": 3,
+    "explanation": "preimage resistance means difficulty of finding an input for a given digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC186",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies preimage resistance?",
+    "options": [
+      "Use preimage resistance according to its defined role: difficulty of finding an input for a given digest",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "preimage resistance means difficulty of finding an input for a given digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC187",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines second-preimage resistance?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "difficulty of matching the digest of a specified input",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "second-preimage resistance means difficulty of matching the digest of a specified input.",
+    "chapter": 7
+  },
+  {
+    "id": "SC188",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing second-preimage resistance. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "difficulty of matching the digest of a specified input",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "second-preimage resistance means difficulty of matching the digest of a specified input.",
+    "chapter": 7
+  },
+  {
+    "id": "SC189",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies second-preimage resistance?",
+    "options": [
+      "Use second-preimage resistance according to its defined role: difficulty of matching the digest of a specified input",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "second-preimage resistance means difficulty of matching the digest of a specified input.",
+    "chapter": 7
+  },
+  {
+    "id": "SC190",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines collision resistance?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "difficulty of finding any two distinct inputs with one digest"
+    ],
+    "answer": 3,
+    "explanation": "collision resistance means difficulty of finding any two distinct inputs with one digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC191",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing collision resistance. Which description is accurate?",
+    "options": [
+      "difficulty of finding any two distinct inputs with one digest",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "collision resistance means difficulty of finding any two distinct inputs with one digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC192",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies collision resistance?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use collision resistance according to its defined role: difficulty of finding any two distinct inputs with one digest",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "collision resistance means difficulty of finding any two distinct inputs with one digest.",
+    "chapter": 7
+  },
+  {
+    "id": "SC193",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines avalanche effect?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "a small input change causing a substantial digest change",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "avalanche effect means a small input change causing a substantial digest change.",
+    "chapter": 7
+  },
+  {
+    "id": "SC194",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing avalanche effect. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "a small input change causing a substantial digest change"
+    ],
+    "answer": 3,
+    "explanation": "avalanche effect means a small input change causing a substantial digest change.",
+    "chapter": 7
+  },
+  {
+    "id": "SC195",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies avalanche effect?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use avalanche effect according to its defined role: a small input change causing a substantial digest change",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "avalanche effect means a small input change causing a substantial digest change.",
+    "chapter": 7
+  },
+  {
+    "id": "SC196",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines HMAC?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "a standardized keyed-hash message authentication construction"
+    ],
+    "answer": 3,
+    "explanation": "HMAC means a standardized keyed-hash message authentication construction.",
+    "chapter": 7
+  },
+  {
+    "id": "SC197",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing HMAC. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "a standardized keyed-hash message authentication construction"
+    ],
+    "answer": 3,
+    "explanation": "HMAC means a standardized keyed-hash message authentication construction.",
+    "chapter": 7
+  },
+  {
+    "id": "SC198",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies HMAC?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use HMAC according to its defined role: a standardized keyed-hash message authentication construction"
+    ],
+    "answer": 3,
+    "explanation": "HMAC means a standardized keyed-hash message authentication construction.",
+    "chapter": 7
+  },
+  {
+    "id": "SC199",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines salt?",
+    "options": [
+      "a unique random value used in password hashing",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "salt means a unique random value used in password hashing.",
+    "chapter": 7
+  },
+  {
+    "id": "SC200",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing salt. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "a unique random value used in password hashing"
+    ],
+    "answer": 3,
+    "explanation": "salt means a unique random value used in password hashing.",
+    "chapter": 7
+  },
+  {
+    "id": "SC201",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies salt?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use salt according to its defined role: a unique random value used in password hashing"
+    ],
+    "answer": 3,
+    "explanation": "salt means a unique random value used in password hashing.",
+    "chapter": 7
+  },
+  {
+    "id": "SC202",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines pepper?",
+    "options": [
+      "an additional secret stored separately from password records",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "pepper means an additional secret stored separately from password records.",
+    "chapter": 7
+  },
+  {
+    "id": "SC203",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing pepper. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "an additional secret stored separately from password records"
+    ],
+    "answer": 3,
+    "explanation": "pepper means an additional secret stored separately from password records.",
+    "chapter": 7
+  },
+  {
+    "id": "SC204",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies pepper?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use pepper according to its defined role: an additional secret stored separately from password records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "pepper means an additional secret stored separately from password records.",
+    "chapter": 7
+  },
+  {
+    "id": "SC205",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines Argon2id?",
+    "options": [
+      "removing all audit records",
+      "a modern memory-hard password-hashing option",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "Argon2id means a modern memory-hard password-hashing option.",
+    "chapter": 7
+  },
+  {
+    "id": "SC206",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing Argon2id. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "a modern memory-hard password-hashing option"
+    ],
+    "answer": 3,
+    "explanation": "Argon2id means a modern memory-hard password-hashing option.",
+    "chapter": 7
+  },
+  {
+    "id": "SC207",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies Argon2id?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use Argon2id according to its defined role: a modern memory-hard password-hashing option",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "Argon2id means a modern memory-hard password-hashing option.",
+    "chapter": 7
+  },
+  {
+    "id": "SC208",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines rainbow table?",
+    "options": [
+      "hiding the algorithm from every user",
+      "precomputed information for attacking unsalted password hashes",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "rainbow table means precomputed information for attacking unsalted password hashes.",
+    "chapter": 7
+  },
+  {
+    "id": "SC209",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Applied",
+    "question": "A student is reviewing rainbow table. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "precomputed information for attacking unsalted password hashes"
+    ],
+    "answer": 3,
+    "explanation": "rainbow table means precomputed information for attacking unsalted password hashes.",
+    "chapter": 7
+  },
+  {
+    "id": "SC210",
+    "topic": "Hashing & Passwords",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies rainbow table?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "Use rainbow table according to its defined role: precomputed information for attacking unsalted password hashes",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "rainbow table means precomputed information for attacking unsalted password hashes.",
+    "chapter": 7
+  },
+  {
+    "id": "SC211",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines digital signature?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a private-key value verified with the corresponding public key",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "digital signature means a private-key value verified with the corresponding public key.",
+    "chapter": 8
+  },
+  {
+    "id": "SC212",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing digital signature. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a private-key value verified with the corresponding public key",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "digital signature means a private-key value verified with the corresponding public key.",
+    "chapter": 8
+  },
+  {
+    "id": "SC213",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies digital signature?",
+    "options": [
+      "removing all audit records",
+      "Use digital signature according to its defined role: a private-key value verified with the corresponding public key",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "digital signature means a private-key value verified with the corresponding public key.",
+    "chapter": 8
+  },
+  {
+    "id": "SC214",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines origin authentication?",
+    "options": [
+      "evidence about where signed data originated",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "origin authentication means evidence about where signed data originated.",
+    "chapter": 8
+  },
+  {
+    "id": "SC215",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing origin authentication. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "evidence about where signed data originated"
+    ],
+    "answer": 3,
+    "explanation": "origin authentication means evidence about where signed data originated.",
+    "chapter": 8
+  },
+  {
+    "id": "SC216",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies origin authentication?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use origin authentication according to its defined role: evidence about where signed data originated",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "origin authentication means evidence about where signed data originated.",
+    "chapter": 8
+  },
+  {
+    "id": "SC217",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines RSA-PSS?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "modern randomized encoding for RSA signatures",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "RSA-PSS means modern randomized encoding for RSA signatures.",
+    "chapter": 8
+  },
+  {
+    "id": "SC218",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing RSA-PSS. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "modern randomized encoding for RSA signatures",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "RSA-PSS means modern randomized encoding for RSA signatures.",
+    "chapter": 8
+  },
+  {
+    "id": "SC219",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies RSA-PSS?",
+    "options": [
+      "hiding the algorithm from every user",
+      "Use RSA-PSS according to its defined role: modern randomized encoding for RSA signatures",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "RSA-PSS means modern randomized encoding for RSA signatures.",
+    "chapter": 8
+  },
+  {
+    "id": "SC220",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines certificate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "a signed binding between a public key and subject information",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "certificate means a signed binding between a public key and subject information.",
+    "chapter": 8
+  },
+  {
+    "id": "SC221",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing certificate. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "a signed binding between a public key and subject information",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "certificate means a signed binding between a public key and subject information.",
+    "chapter": 8
+  },
+  {
+    "id": "SC222",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies certificate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use certificate according to its defined role: a signed binding between a public key and subject information"
+    ],
+    "answer": 3,
+    "explanation": "certificate means a signed binding between a public key and subject information.",
+    "chapter": 8
+  },
+  {
+    "id": "SC223",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines certificate authority?",
+    "options": [
+      "an entity that validates requests and signs certificates",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "certificate authority means an entity that validates requests and signs certificates.",
+    "chapter": 8
+  },
+  {
+    "id": "SC224",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing certificate authority. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "an entity that validates requests and signs certificates"
+    ],
+    "answer": 3,
+    "explanation": "certificate authority means an entity that validates requests and signs certificates.",
+    "chapter": 8
+  },
+  {
+    "id": "SC225",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies certificate authority?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "Use certificate authority according to its defined role: an entity that validates requests and signs certificates",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "certificate authority means an entity that validates requests and signs certificates.",
+    "chapter": 8
+  },
+  {
+    "id": "SC226",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines trust anchor?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "a configured trusted starting point for path validation",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "trust anchor means a configured trusted starting point for path validation.",
+    "chapter": 8
+  },
+  {
+    "id": "SC227",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing trust anchor. Which description is accurate?",
+    "options": [
+      "a configured trusted starting point for path validation",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "trust anchor means a configured trusted starting point for path validation.",
+    "chapter": 8
+  },
+  {
+    "id": "SC228",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies trust anchor?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use trust anchor according to its defined role: a configured trusted starting point for path validation",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "trust anchor means a configured trusted starting point for path validation.",
+    "chapter": 8
+  },
+  {
+    "id": "SC229",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines SAN?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "certificate identities checked against the requested domain",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "SAN means certificate identities checked against the requested domain.",
+    "chapter": 8
+  },
+  {
+    "id": "SC230",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing SAN. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "certificate identities checked against the requested domain",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "SAN means certificate identities checked against the requested domain.",
+    "chapter": 8
+  },
+  {
+    "id": "SC231",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies SAN?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use SAN according to its defined role: certificate identities checked against the requested domain"
+    ],
+    "answer": 3,
+    "explanation": "SAN means certificate identities checked against the requested domain.",
+    "chapter": 8
+  },
+  {
+    "id": "SC232",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines revocation?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "invalidating a certificate before normal expiration",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "revocation means invalidating a certificate before normal expiration.",
+    "chapter": 8
+  },
+  {
+    "id": "SC233",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing revocation. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "invalidating a certificate before normal expiration",
+      "removing all audit records",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "revocation means invalidating a certificate before normal expiration.",
+    "chapter": 8
+  },
+  {
+    "id": "SC234",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies revocation?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use revocation according to its defined role: invalidating a certificate before normal expiration",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "revocation means invalidating a certificate before normal expiration.",
+    "chapter": 8
+  },
+  {
+    "id": "SC235",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines OCSP stapling?",
+    "options": [
+      "hiding the algorithm from every user",
+      "a server supplying a signed status response",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "OCSP stapling means a server supplying a signed status response.",
+    "chapter": 8
+  },
+  {
+    "id": "SC236",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing OCSP stapling. Which description is accurate?",
+    "options": [
+      "a server supplying a signed status response",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "OCSP stapling means a server supplying a signed status response.",
+    "chapter": 8
+  },
+  {
+    "id": "SC237",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies OCSP stapling?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use OCSP stapling according to its defined role: a server supplying a signed status response",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "OCSP stapling means a server supplying a signed status response.",
+    "chapter": 8
+  },
+  {
+    "id": "SC238",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines certificate chain?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "a path from an end entity through intermediates to a trusted root",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "certificate chain means a path from an end entity through intermediates to a trusted root.",
+    "chapter": 8
+  },
+  {
+    "id": "SC239",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Applied",
+    "question": "A student is reviewing certificate chain. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "a path from an end entity through intermediates to a trusted root"
+    ],
+    "answer": 3,
+    "explanation": "certificate chain means a path from an end entity through intermediates to a trusted root.",
+    "chapter": 8
+  },
+  {
+    "id": "SC240",
+    "topic": "Signatures & Certificates",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies certificate chain?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use certificate chain according to its defined role: a path from an end entity through intermediates to a trusted root"
+    ],
+    "answer": 3,
+    "explanation": "certificate chain means a path from an end entity through intermediates to a trusted root.",
+    "chapter": 8
+  },
+  {
+    "id": "SC241",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines identification?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "claiming an identity"
+    ],
+    "answer": 3,
+    "explanation": "identification means claiming an identity.",
+    "chapter": 9
+  },
+  {
+    "id": "SC242",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing identification. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "claiming an identity",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "identification means claiming an identity.",
+    "chapter": 9
+  },
+  {
+    "id": "SC243",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies identification?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "Use identification according to its defined role: claiming an identity",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "identification means claiming an identity.",
+    "chapter": 9
+  },
+  {
+    "id": "SC244",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines MFA?",
+    "options": [
+      "evidence from two or more different factor categories",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "MFA means evidence from two or more different factor categories.",
+    "chapter": 9
+  },
+  {
+    "id": "SC245",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing MFA. Which description is accurate?",
+    "options": [
+      "evidence from two or more different factor categories",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 0,
+    "explanation": "MFA means evidence from two or more different factor categories.",
+    "chapter": 9
+  },
+  {
+    "id": "SC246",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies MFA?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use MFA according to its defined role: evidence from two or more different factor categories"
+    ],
+    "answer": 3,
+    "explanation": "MFA means evidence from two or more different factor categories.",
+    "chapter": 9
+  },
+  {
+    "id": "SC247",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines RBAC?",
+    "options": [
+      "removing all audit records",
+      "permissions assigned through organizational roles",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "RBAC means permissions assigned through organizational roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC248",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing RBAC. Which description is accurate?",
+    "options": [
+      "permissions assigned through organizational roles",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "RBAC means permissions assigned through organizational roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC249",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies RBAC?",
+    "options": [
+      "Use RBAC according to its defined role: permissions assigned through organizational roles",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "RBAC means permissions assigned through organizational roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC250",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines ABAC?",
+    "options": [
+      "removing all audit records",
+      "decisions based on subject, resource, action, and environment attributes",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "ABAC means decisions based on subject, resource, action, and environment attributes.",
+    "chapter": 9
+  },
+  {
+    "id": "SC251",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing ABAC. Which description is accurate?",
+    "options": [
+      "decisions based on subject, resource, action, and environment attributes",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "ABAC means decisions based on subject, resource, action, and environment attributes.",
+    "chapter": 9
+  },
+  {
+    "id": "SC252",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies ABAC?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use ABAC according to its defined role: decisions based on subject, resource, action, and environment attributes"
+    ],
+    "answer": 3,
+    "explanation": "ABAC means decisions based on subject, resource, action, and environment attributes.",
+    "chapter": 9
+  },
+  {
+    "id": "SC253",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines least privilege?",
+    "options": [
+      "removing all audit records",
+      "granting only access required for assigned tasks",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 1,
+    "explanation": "least privilege means granting only access required for assigned tasks.",
+    "chapter": 9
+  },
+  {
+    "id": "SC254",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing least privilege. Which description is accurate?",
+    "options": [
+      "granting only access required for assigned tasks",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "least privilege means granting only access required for assigned tasks.",
+    "chapter": 9
+  },
+  {
+    "id": "SC255",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies least privilege?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "Use least privilege according to its defined role: granting only access required for assigned tasks"
+    ],
+    "answer": 3,
+    "explanation": "least privilege means granting only access required for assigned tasks.",
+    "chapter": 9
+  },
+  {
+    "id": "SC256",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines separation of duties?",
+    "options": [
+      "dividing sensitive actions across roles",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "separation of duties means dividing sensitive actions across roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC257",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing separation of duties. Which description is accurate?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "dividing sensitive actions across roles",
+      "hiding the algorithm from every user",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "separation of duties means dividing sensitive actions across roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC258",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies separation of duties?",
+    "options": [
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "Use separation of duties according to its defined role: dividing sensitive actions across roles"
+    ],
+    "answer": 3,
+    "explanation": "separation of duties means dividing sensitive actions across roles.",
+    "chapter": 9
+  },
+  {
+    "id": "SC259",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines SSO?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "one authentication process supporting multiple connected services"
+    ],
+    "answer": 3,
+    "explanation": "SSO means one authentication process supporting multiple connected services.",
+    "chapter": 9
+  },
+  {
+    "id": "SC260",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing SSO. Which description is accurate?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "one authentication process supporting multiple connected services",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "SSO means one authentication process supporting multiple connected services.",
+    "chapter": 9
+  },
+  {
+    "id": "SC261",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies SSO?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "Use SSO according to its defined role: one authentication process supporting multiple connected services",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 2,
+    "explanation": "SSO means one authentication process supporting multiple connected services.",
+    "chapter": 9
+  },
+  {
+    "id": "SC262",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines OAuth 2.0?",
+    "options": [
+      "a framework primarily for delegated authorization",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 0,
+    "explanation": "OAuth 2.0 means a framework primarily for delegated authorization.",
+    "chapter": 9
+  },
+  {
+    "id": "SC263",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing OAuth 2.0. Which description is accurate?",
+    "options": [
+      "a framework primarily for delegated authorization",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "OAuth 2.0 means a framework primarily for delegated authorization.",
+    "chapter": 9
+  },
+  {
+    "id": "SC264",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies OAuth 2.0?",
+    "options": [
+      "hiding the algorithm from every user",
+      "Use OAuth 2.0 according to its defined role: a framework primarily for delegated authorization",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records"
+    ],
+    "answer": 1,
+    "explanation": "OAuth 2.0 means a framework primarily for delegated authorization.",
+    "chapter": 9
+  },
+  {
+    "id": "SC265",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines OpenID Connect?",
+    "options": [
+      "an authentication layer built on OAuth 2.0",
+      "removing all audit records",
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy"
+    ],
+    "answer": 0,
+    "explanation": "OpenID Connect means an authentication layer built on OAuth 2.0.",
+    "chapter": 9
+  },
+  {
+    "id": "SC266",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing OpenID Connect. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "assuming networks and users are always trustworthy",
+      "removing all audit records",
+      "an authentication layer built on OAuth 2.0"
+    ],
+    "answer": 3,
+    "explanation": "OpenID Connect means an authentication layer built on OAuth 2.0.",
+    "chapter": 9
+  },
+  {
+    "id": "SC267",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies OpenID Connect?",
+    "options": [
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "Use OpenID Connect according to its defined role: an authentication layer built on OAuth 2.0",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 2,
+    "explanation": "OpenID Connect means an authentication layer built on OAuth 2.0.",
+    "chapter": 9
+  },
+  {
+    "id": "SC268",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Foundation",
+    "question": "Which statement best defines session management?",
+    "options": [
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user",
+      "protecting the authenticated interaction after login",
+      "removing all audit records"
+    ],
+    "answer": 2,
+    "explanation": "session management means protecting the authenticated interaction after login.",
+    "chapter": 9
+  },
+  {
+    "id": "SC269",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Applied",
+    "question": "A student is reviewing session management. Which description is accurate?",
+    "options": [
+      "hiding the algorithm from every user",
+      "removing all audit records",
+      "assuming networks and users are always trustworthy",
+      "protecting the authenticated interaction after login"
+    ],
+    "answer": 3,
+    "explanation": "session management means protecting the authenticated interaction after login.",
+    "chapter": 9
+  },
+  {
+    "id": "SC270",
+    "topic": "Authentication & Access Control",
+    "difficulty": "Challenge",
+    "question": "Which security design choice correctly applies session management?",
+    "options": [
+      "removing all audit records",
+      "Use session management according to its defined role: protecting the authenticated interaction after login",
+      "assuming networks and users are always trustworthy",
+      "hiding the algorithm from every user"
+    ],
+    "answer": 1,
+    "explanation": "session management means protecting the authenticated interaction after login.",
+    "chapter": 9
+  }
+]
