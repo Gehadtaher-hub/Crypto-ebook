@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#2b2033">
+<meta name="theme-color" content="#3b0914">
 <title>Security & Cryptography Lab Manual</title>
 <style>
 :root{--deep:#3b0914;--burg:#741c32;--rose:#9f4058;--plum:#65374f;--gold:#c18c48;--blush:#f8f1f3;--paper:#fffdfd;--line:#dec9ce;--ink:#39252b;--muted:#806b70}
@@ -12,95 +12,9 @@ body{background:radial-gradient(circle at 10% 0,#f0dce2 0,transparent 29%),radia
 header{padding:14px 20px;background:linear-gradient(120deg,var(--deep),var(--burg) 62%,#91364f);border-bottom:3px solid transparent;border-image:linear-gradient(90deg,var(--rose),var(--gold),#f0dce2) 1;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;box-shadow:0 8px 28px #3b091440;color:#fff}
 h1{margin:0;font-size:clamp(23px,4vw,37px)}.sub{color:#f1d8df;font:800 12px monospace;letter-spacing:1px}.actions,.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
 .btn,.toolbar button,.toolbar input{background:#fff8fa;color:var(--deep);border:1px solid #bf8d9a;border-radius:12px;padding:10px 14px;font-weight:800;text-decoration:none;box-shadow:0 5px 14px #3b091421;transition:.2s}.btn:hover,.toolbar button:hover{transform:translateY(-2px);border-color:var(--gold)}.btn.active{color:#fff;background:linear-gradient(135deg,var(--burg),var(--plum));border-color:#cf9eaa}
-main{padding:10px}.toolbar{justify-content:center;margin-bottom:8px;color:var(--muted)}.toolbar input{width:72px}.shell{height:calc(100vh - 155px);min-height:430px;display:flex;align-items:center;justify-content:center;overflow:hidden}.flip-book{display:none;filter:drop-shadow(0 20px 30px #3b091455)}.page{background:#fff;overflow:hidden;position:relative;border-radius:3px;box-shadow:0 16px 32px #3b09142e}.page canvas{width:100%;height:100%;object-fit:contain}.link-layer{position:absolute;inset:0}.pdf-link{position:absolute;border:0;background:transparent;cursor:pointer}.pdf-link:hover,.pdf-link:focus{background:#c18c4838;outline:2px solid var(--gold)}
+main{padding:10px}.toolbar{justify-content:center;margin-bottom:8px;color:var(--muted)}.toolbar input{width:72px}.shell{width:min(1400px,100%);height:calc(100vh - 155px);min-height:430px;margin:0 auto;display:flex;align-items:center;justify-content:center;overflow:hidden}.flip-book{display:none;filter:drop-shadow(0 20px 30px #3b091455)}.page{background:#fff;overflow:hidden;position:relative;border-radius:3px;box-shadow:0 16px 32px #3b09142e}.page canvas{width:100%;height:100%;object-fit:contain}.link-layer{position:absolute;inset:0}.pdf-link{position:absolute;border:0;background:transparent;cursor:pointer}.pdf-link:hover,.pdf-link:focus{background:#c18c4838;outline:2px solid var(--gold)}
 .loading{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:32px;text-align:center;box-shadow:0 12px 30px #3b091420}.spinner{width:42px;height:42px;margin:auto;border:4px solid #d8bfc5;border-top-color:var(--burg);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:700px){header{padding:10px}.shell{height:calc(100vh - 235px)}.hint{display:none}.btn,.toolbar button{padding:9px 11px;font-size:12px}}
-
-/* ===== Unified Security & Cryptography Course Theme ===== */
-:root{
-  --course-ink:#2b2033;
-  --course-plum:#725f76;
-  --course-mauve:#9c8199;
-  --course-dust:#cbb0bd;
-  --course-blush:#f2cbc7;
-  --course-coral:#d58f89;
-  --course-paper:#fff9fa;
-  --course-panel:#f7edf1;
-  --course-line:#e4d1da;
-  --course-muted:#746a73;
-  --course-green:#3d7660;
-  --course-red:#a54854;
-  --course-shadow:0 16px 38px rgba(43,32,51,.14);
-}
-body{
-  color:var(--course-ink)!important;
-  background:
-    radial-gradient(circle at 8% 0,rgba(242,203,199,.62),transparent 28%),
-    radial-gradient(circle at 94% 2%,rgba(203,176,189,.55),transparent 30%),
-    linear-gradient(145deg,var(--course-paper),#f7e7ea 53%,#e9dce5)!important;
-}
-header{
-  background:linear-gradient(125deg,var(--course-ink),var(--course-plum) 58%,var(--course-coral))!important;
-  border-bottom:3px solid var(--course-blush)!important;
-  box-shadow:0 8px 28px rgba(43,32,51,.28)!important;
-}
-.nav a,.actions .btn,.toolbar button,.toolbar input{
-  color:var(--course-ink)!important;
-  background:rgba(255,249,250,.96)!important;
-  border-color:var(--course-dust)!important;
-  border-radius:12px!important;
-  box-shadow:0 5px 14px rgba(43,32,51,.10)!important;
-}
-.nav a:hover,.actions .btn:hover,.toolbar button:hover{
-  border-color:var(--course-coral)!important;
-  transform:translateY(-1px);
-}
-.nav a.active,.actions .btn.active{
-  color:#fff!important;
-  background:linear-gradient(135deg,var(--course-mauve),var(--course-plum))!important;
-  border-color:var(--course-blush)!important;
-}
-.progress i{background:linear-gradient(90deg,var(--course-blush),var(--course-coral))!important}
-.intro,.topic,.assessment,.loading{
-  background:rgba(255,249,250,.96)!important;
-  border-color:var(--course-line)!important;
-  box-shadow:var(--course-shadow)!important;
-}
-.intro{border-left-color:var(--course-coral)!important}
-.topic-head{background:var(--course-paper)!important}
-.topic-head:hover{background:#f8edf1!important}
-.topic-head small{color:var(--course-mauve)!important}
-.topic-head strong,.intro h2,h3{color:var(--course-ink)!important}
-.num{background:linear-gradient(145deg,var(--course-mauve),var(--course-coral))!important}
-.chev{color:var(--course-coral)!important}
-.topic-body{border-top-color:var(--course-line)!important}
-.detail-grid>div,.interactive,.check,.result{
-  background:var(--course-panel)!important;
-  border-color:var(--course-line)!important;
-}
-.interactive{background:#fff!important;border-left-color:var(--course-mauve)!important}
-.check,.caption,.predict{background:#f5e2e3!important;border-left-color:var(--course-coral)!important}
-button,select,input,textarea{
-  color:var(--course-ink)!important;
-  background:#fff!important;
-  border-color:var(--course-dust)!important;
-}
-button:hover{border-color:var(--course-coral)!important}
-.flow b,.case-map b,.tiles b,.net b,.mechanism-auto i,.mechanism-auto b{
-  border-color:var(--course-mauve)!important;
-  background:#fff!important;
-}
-.flow span,.case-map span{color:var(--course-coral)!important}
-.orbit b,.matrix i{background:var(--course-ink)!important}
-.orbit i{border-color:var(--course-coral)!important}
-.tri b,.tri strong{border-color:var(--course-mauve)!important}
-.tri strong{background:var(--course-ink)!important}
-.gate{border-color:var(--course-ink)!important;background:var(--course-dust)!important}
-.compare div{border-color:var(--course-green)!important}
-.compare .bad{border-color:var(--course-red)!important;background:#f8e1e3!important}
-.page{box-shadow:0 16px 32px rgba(43,32,51,.18)!important}
-.pdf-link:hover,.pdf-link:focus{background:rgba(213,143,137,.25)!important;outline-color:var(--course-coral)!important}
-.spinner{border-color:var(--course-dust)!important;border-top-color:var(--course-coral)!important}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
@@ -135,7 +49,7 @@ const root=document.getElementById('book'),loading=document.getElementById('load
 let doc,flip,total=0;
 async function destPage(dest){try{let d=typeof dest==='string'?await doc.getDestination(dest):dest;if(!d)return null;return typeof d[0]==='object'?(await doc.getPageIndex(d[0]))+1:(Number.isInteger(d[0])?d[0]+1:null)}catch{return null}}
 async function links(pg,holder,vp){let anns=await pg.getAnnotations({intent:'display'}),layer=document.createElement('div');layer.className='link-layer';for(const a of anns){if(a.subtype!=='Link'||!a.rect)continue;let r=vp.convertToViewportRectangle(a.rect),x=Math.min(r[0],r[2]),y=Math.min(r[1],r[3]),b=document.createElement('button');b.className='pdf-link';b.setAttribute('aria-label','Open lab manual link');b.style.left=x/vp.width*100+'%';b.style.top=y/vp.height*100+'%';b.style.width=Math.abs(r[2]-r[0])/vp.width*100+'%';b.style.height=Math.abs(r[3]-r[1])/vp.height*100+'%';b.onclick=async e=>{e.stopPropagation();if(a.url)window.open(a.url,'_blank','noopener');else{let p=await destPage(a.dest);if(p)flip.flip(p-1)}};layer.appendChild(b)}holder.appendChild(layer)}
-(async()=>{try{doc=await pdfjsLib.getDocument(file).promise;total=doc.numPages;pageNo.max=total;for(let n=1;n<=total;n++){statusEl.textContent='Preparing page '+n+' of '+total;let pg=await doc.getPage(n),vp=pg.getViewport({scale:1.3}),c=document.createElement('canvas'),d=document.createElement('div');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);await pg.render({canvasContext:c.getContext('2d'),viewport:vp}).promise;d.className='page';if(n===1)d.dataset.density='hard';d.appendChild(c);await links(pg,d,vp);root.appendChild(d)}loading.style.display='none';root.style.display='block';flip=new St.PageFlip(root,{width:550,height:730,size:'stretch',minWidth:250,maxWidth:650,minHeight:340,maxHeight:780,showCover:true,usePortrait:true,mobileScrollSupport:false,drawShadow:true,flippingTime:650});flip.loadFromHTML(root.querySelectorAll('.page'));flip.on('flip',e=>{pageNo.value=e.data+1;statusEl.textContent='Page '+(e.data+1)+' of '+total});prev.disabled=next.disabled=pageNo.disabled=false;statusEl.textContent='Page 1 of '+total}catch(e){loading.innerHTML='<h2>Lab manual initialization failed</h2><p>Keep <b>lab-manual.pdf</b> beside <b>lab-manual.html</b>.</p><small>'+e.message+'</small>'}})();
+(async()=>{try{doc=await pdfjsLib.getDocument(file).promise;total=doc.numPages;pageNo.max=total;for(let n=1;n<=total;n++){statusEl.textContent='Preparing page '+n+' of '+total;let pg=await doc.getPage(n),vp=pg.getViewport({scale:1.3}),c=document.createElement('canvas'),d=document.createElement('div');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);await pg.render({canvasContext:c.getContext('2d'),viewport:vp}).promise;d.className='page';if(n===1)d.dataset.density='hard';d.appendChild(c);await links(pg,d,vp);root.appendChild(d)}loading.style.display='none';root.style.display='block';flip=new St.PageFlip(root,{width:860,height:1142,size:'stretch',minWidth:420,maxWidth:1080,minHeight:558,maxHeight:1434,showCover:false,usePortrait:true,mobileScrollSupport:false,drawShadow:true,flippingTime:650});flip.loadFromHTML(root.querySelectorAll('.page'));flip.on('flip',e=>{pageNo.value=e.data+1;statusEl.textContent='Page '+(e.data+1)+' of '+total});prev.disabled=next.disabled=pageNo.disabled=false;statusEl.textContent='Page 1 of '+total}catch(e){loading.innerHTML='<h2>Lab manual initialization failed</h2><p>Keep <b>lab-manual.pdf</b> beside <b>lab-manual.html</b>.</p><small>'+e.message+'</small>'}})();
 prev.onclick=()=>flip&&flip.flipPrev();next.onclick=()=>flip&&flip.flipNext();pageNo.onchange=()=>flip&&flip.flip(Math.max(1,Math.min(total,+pageNo.value||1))-1);
 document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')flip&&flip.flipPrev();if(e.key==='ArrowRight')flip&&flip.flipNext()});
 </script>
