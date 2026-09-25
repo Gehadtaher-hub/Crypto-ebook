@@ -15,9 +15,16 @@ h1{margin:0;font-size:clamp(23px,4vw,37px)}.sub{color:#f2cbc7;font:800 12px mono
 main{padding:10px}.toolbar{justify-content:center;margin-bottom:8px;color:var(--muted)}.toolbar input{width:72px}.shell{width:min(1400px,100%);height:calc(100vh - 155px);min-height:430px;margin:0 auto;display:flex;align-items:center;justify-content:center;overflow:hidden}.flip-book{display:none;filter:drop-shadow(0 20px 30px #2b203355)}.page{background:#fff;overflow:hidden;position:relative;border-radius:3px;box-shadow:0 16px 32px #2b20332e}.page canvas{width:100%;height:100%;object-fit:contain}.link-layer{position:absolute;inset:0}.pdf-link{position:absolute;border:0;background:transparent;cursor:pointer}.pdf-link:hover,.pdf-link:focus{background:#d58f8938;outline:2px solid var(--gold)}
 .loading{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:32px;text-align:center;box-shadow:0 12px 30px #2b203320}.spinner{width:42px;height:42px;margin:auto;border:4px solid #d8bfc5;border-top-color:var(--burg);border-radius:50%;animation:spin .8s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
 @media(max-width:700px){header{padding:10px}.shell{height:calc(100vh - 235px)}.hint{display:none}.btn,.toolbar button{padding:9px 11px;font-size:12px}}
+
+/* True full-page PDF viewer: one complete page at a time */
+.shell{width:100%;height:calc(100vh - 155px);min-height:430px;overflow:auto!important;display:flex;align-items:flex-start;justify-content:center;padding:0 12px 22px}
+.flip-book{display:none;width:min(1120px,100%);filter:none!important}
+.page{width:100%;height:auto!important;background:#fff;border-radius:8px;box-shadow:0 16px 36px #2b203338;overflow:hidden;position:relative}
+.page canvas{display:block;width:100%!important;height:auto!important;object-fit:contain}
+.link-layer{position:absolute;inset:0}
+@media(max-width:700px){.shell{height:calc(100vh - 235px);padding:0 4px 14px}.page{border-radius:4px}}
 </style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/page-flip@2.0.7/dist/js/page-flip.browser.min.js"></script>
 </head>
 <body>
 <header>
@@ -39,19 +46,24 @@ main{padding:10px}.toolbar{justify-content:center;margin-bottom:8px;color:var(--
   </div>
   <div class="shell">
     <div id="loading" class="loading"><div class="spinner"></div><p>Loading interactive pages…</p></div>
-    <div id="book" class="flip-book"></div>
+    <div id="book" class="flip-book"><div id="singlePage" class="page"><canvas id="pageCanvas"></canvas><div id="linkLayer" class="link-layer"></div></div></div>
   </div>
 </main>
 <script>
 pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
 const file='crypto_ebook.pdf';
-const root=document.getElementById('book'),loading=document.getElementById('loading'),statusEl=document.getElementById('status'),pageNo=document.getElementById('pageNo'),prev=document.getElementById('prev'),next=document.getElementById('next');
-let doc,flip,total=0;
-async function destPage(dest){try{let d=typeof dest==='string'?await doc.getDestination(dest):dest;if(!d)return null;return typeof d[0]==='object'?(await doc.getPageIndex(d[0]))+1:(Number.isInteger(d[0])?d[0]+1:null)}catch{return null}}
-async function links(pg,holder,vp){let anns=await pg.getAnnotations({intent:'display'}),layer=document.createElement('div');layer.className='link-layer';for(const a of anns){if(a.subtype!=='Link'||!a.rect)continue;let r=vp.convertToViewportRectangle(a.rect),x=Math.min(r[0],r[2]),y=Math.min(r[1],r[3]),b=document.createElement('button');b.className='pdf-link';b.setAttribute('aria-label','Open PDF link');b.style.left=x/vp.width*100+'%';b.style.top=y/vp.height*100+'%';b.style.width=Math.abs(r[2]-r[0])/vp.width*100+'%';b.style.height=Math.abs(r[3]-r[1])/vp.height*100+'%';b.onclick=async e=>{e.stopPropagation();if(a.url)window.open(a.url,'_blank','noopener');else{let p=await destPage(a.dest);if(p)flip.flip(p-1)}};layer.appendChild(b)}holder.appendChild(layer)}
-(async()=>{try{doc=await pdfjsLib.getDocument(file).promise;total=doc.numPages;pageNo.max=total;for(let n=1;n<=total;n++){statusEl.textContent='Preparing page '+n+' of '+total;let pg=await doc.getPage(n),vp=pg.getViewport({scale:1.3}),c=document.createElement('canvas'),d=document.createElement('div');c.width=Math.ceil(vp.width);c.height=Math.ceil(vp.height);await pg.render({canvasContext:c.getContext('2d'),viewport:vp}).promise;d.className='page';if(n===1)d.dataset.density='hard';d.appendChild(c);await links(pg,d,vp);root.appendChild(d)}loading.style.display='none';root.style.display='block';flip=new St.PageFlip(root,{width:860,height:1142,size:'stretch',minWidth:420,maxWidth:1080,minHeight:558,maxHeight:1434,showCover:false,usePortrait:true,mobileScrollSupport:false,drawShadow:true,flippingTime:650});flip.loadFromHTML(root.querySelectorAll('.page'));flip.on('flip',e=>{pageNo.value=e.data+1;statusEl.textContent='Page '+(e.data+1)+' of '+total});prev.disabled=next.disabled=pageNo.disabled=false;statusEl.textContent='Page 1 of '+total}catch(e){loading.innerHTML='<h2>Reader initialization failed</h2><p>Keep <b>crypto_ebook.pdf</b> beside index.html.</p><small>'+e.message+'</small>'}})();
-prev.onclick=()=>flip&&flip.flipPrev();next.onclick=()=>flip&&flip.flipNext();pageNo.onchange=()=>flip&&flip.flip(Math.max(1,Math.min(total,+pageNo.value||1))-1);
-document.addEventListener('keydown',e=>{if(e.key==='ArrowLeft')flip&&flip.flipPrev();if(e.key==='ArrowRight')flip&&flip.flipNext()});
+const root=document.getElementById('book'),loading=document.getElementById('loading'),statusEl=document.getElementById('status'),pageNo=document.getElementById('pageNo'),prev=document.getElementById('prev'),next=document.getElementById('next'),canvas=document.getElementById('pageCanvas'),layer=document.getElementById('linkLayer');
+let doc,total=0,current=1,rendering=false,pending=null;
+async function renderPage(n){
+ if(rendering){pending=n;return} rendering=true; current=n; pageNo.value=n; statusEl.textContent='Page '+n+' of '+total;
+ const pg=await doc.getPage(n),base=pg.getViewport({scale:1}),available=Math.min(1100,Math.max(320,document.documentElement.clientWidth-28)),scale=Math.max(1.25,available/base.width),vp=pg.getViewport({scale}),ratio=window.devicePixelRatio||1;
+ canvas.width=Math.ceil(vp.width*ratio);canvas.height=Math.ceil(vp.height*ratio);canvas.style.aspectRatio=vp.width+'/'+vp.height;
+ const ctx=canvas.getContext('2d');ctx.setTransform(ratio,0,0,ratio,0,0);await pg.render({canvasContext:ctx,viewport:vp}).promise;
+ layer.innerHTML='';const anns=await pg.getAnnotations();anns.filter(a=>a.subtype==='Link').forEach(a=>{const r=vp.convertToViewportRectangle(a.rect),l=Math.min(r[0],r[2]),t=Math.min(r[1],r[3]),w=Math.abs(r[2]-r[0]),h=Math.abs(r[3]-r[1]),el=document.createElement('a');el.className='pdf-link';el.style.cssText=`left:${l/vp.width*100}%;top:${t/vp.height*100}%;width:${w/vp.width*100}%;height:${h/vp.height*100}%`;if(a.url){el.href=a.url;el.target='_blank';el.rel='noopener'}else if(a.dest){el.href='#';el.onclick=async e=>{e.preventDefault();let d=typeof a.dest==='string'?await doc.getDestination(a.dest):a.dest;if(d)renderPage((await doc.getPageIndex(d[0]))+1)}}layer.appendChild(el)});
+ prev.disabled=n<=1;next.disabled=n>=total;rendering=false;if(pending){let x=pending;pending=null;renderPage(x)}
+}
+(async()=>{try{doc=await pdfjsLib.getDocument(file).promise;total=doc.numPages;pageNo.max=total;pageNo.disabled=false;root.style.display='block';loading.style.display='none';await renderPage(1)}catch(e){loading.innerHTML='<h2>Ebook initialization failed</h2><p>Keep <b>crypto_ebook.pdf</b> beside <b>index.html</b>.</p><small>'+e.message+'</small>'}})();
+prev.onclick=()=>current>1&&renderPage(current-1);next.onclick=()=>current<total&&renderPage(current+1);pageNo.onchange=()=>renderPage(Math.max(1,Math.min(total,+pageNo.value||1)));let timer;addEventListener('resize',()=>{clearTimeout(timer);timer=setTimeout(()=>doc&&renderPage(current),180)});
 </script>
 </body>
 </html>
