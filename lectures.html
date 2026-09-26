@@ -120,7 +120,7 @@ footer{padding:24px;text-align:center;background:var(--deep);color:#cbb0bd}@medi
 </div>
 <footer>Security & Cryptography Course • Gehad Taher</footer>
 <script>
-const LECTURE_1_PRESENTATION='https://cisuezedu-my.sharepoint.com/personal/gehad_taher_ci_suez_edu_eg/_layouts/15/Doc.aspx?sourcedoc=%7Be7f3dfcd-f695-4cae-bfb3-edeee0e077d3%7D&action=embedview&wdAr=1.7777777777777777';
+const LECTURE_1_PRESENTATION='https://docs.google.com/presentation/d/e/2PACX-1vTYlf3K_ibckD3Pd38UL2W1EUdkTUDAQnwOaDBePbcbseDyKbyp57G-SgrdVKTwWg/pubembed?start=false&loop=false&delayms=3000';
 function filterLectures(){const q=search.value.toLowerCase().trim();document.querySelectorAll('.lecture-card').forEach(card=>card.style.display=card.dataset.search.includes(q)?'grid':'none')}
 function openPresentation(index){if(index!==0)return;const modal=document.getElementById('presentationModal'),viewer=document.getElementById('presentationViewer');document.getElementById('presentationFull').href=LECTURE_1_PRESENTATION;viewer.innerHTML=`<iframe src="${LECTURE_1_PRESENTATION}" title="Lecture 1 PowerPoint presentation" allowfullscreen loading="eager"></iframe>`;modal.classList.add('open');document.body.classList.add('presentation-opened')}
 function closePresentation(){document.getElementById('presentationModal').classList.remove('open');document.getElementById('presentationViewer').innerHTML='';document.body.classList.remove('presentation-opened')}
